@@ -1,0 +1,329 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.5em;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.topHeader {
+    width: 100%;
+    margin: 0;
+    height: 25vh;
+    background-color: #000;
+    color: #fff;
+    overflow:hidden;
+}
+
+.topHeader.sticky {
+    position: fixed;  
+    top: 0;
+}
+
+.toggle {
+    float: right;
+    position: relative;
+    display: flex;
+    padding-right: 3em;
+    padding-top: 4em;
+}
+
+.toggle a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em;
+    border: 1px solid #000;
+}
+
+#home:hover {
+    border: 1px solid #fff;
+}
+
+#ctg:hover  {
+    color: #c253c2;
+    border: 1px solid #fff;
+}
+
+#gh:hover {
+    color: #E0B15B;
+    border: 1px solid #fff;
+}
+
+#sw:hover {
+    color: #1db963;
+    border: 1px solid #fff;
+}
+
+#tb:hover {
+    color: rgb(2, 142, 248);
+    border: 1px solid #fff;
+}
+
+.toggle .icon {
+    display: none;
+}
+
+.F9Image {
+    z-index: 99;
+    margin-left: 10%;
+    margin-top: -5%;
+    border: 3px solid #fff;
+}
+
+.F9Image.stickyImg {
+    position: fixed;
+    z-index: 99;
+    border: 3px solid #fff;
+    margin-top: 7%;
+}
+
+.about {
+    background-color: #fff;
+    margin-top: 2em;
+}
+
+.about.stickyAbout {
+    padding-top: 18em;
+}
+
+.aboutTitle {
+    text-align: center;
+}
+
+.aboutTitle h1 {
+    font-size: 3em;
+}
+
+.aboutText {
+    margin: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.aboutText p {
+    font-size: 2em;
+}
+
+.aboutLogo {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.aboutLogo img {
+    width: 40%;
+}
+
+.companies {
+    margin: 5em;
+}
+
+.coImg {
+    display: grid;
+    width: 80%;
+    padding: 3em;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctg {
+    grid-column: 1 / 2;
+}
+
+.ctg img {
+    width: 80%;
+    padding: 5em;
+}
+
+.gh {
+    grid-column: 2 / 3;
+}
+
+.gh img {
+    width: 80%;
+    padding: 5em;
+}
+
+.sw {
+    grid-column: 1 / 2;
+}
+
+.sw img {
+    width: 80%;
+    padding: 5em;
+}
+
+.tb {
+    grid-column: 2 / 3;
+}
+
+.tb img {
+    width: 80%;
+    padding: 5em;
+}
+
+@media screen and (max-width: 860px) {
+    body {
+        width: 100%;
+        text-align: center;
+    }
+
+    .topHeader {
+        width: 100%;
+        margin: 0;
+        height: 25vh;
+        background-color: #000;
+        color: #fff;
+        overflow:hidden;
+    }
+
+    .toggle a {
+        display: none;
+    }
+
+    .toggle {
+        float: left;
+        z-index: 1;
+        padding-top: 1em;
+    }
+
+   #smallMenu {
+       display: block;
+       color: #fff;
+   }
+
+   .topHeader.responsive .sticky {
+       position: sticky;
+       width: 100%;
+   }
+
+   .topHeader.responsive .toggle a {
+       float: right;
+       display: block;
+       text-align: right;
+       color: #fff;
+  }
+
+   #ctg, #sw, #gh, #tb {
+       font-size: 0.5em;
+       margin-top: 3em;
+   }
+
+   .F9Image {
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: -15%;
+       z-index: 99;
+   }
+
+   .F9Image.stickyImg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+   }
+
+   .about {
+       width: 100%;
+   }
+
+   .aboutTitle h1 {
+       font-size: 2em;
+       padding: 0.75em;
+   }
+
+   .aboutText {
+    font-size: 0.5em;
+    margin: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+   }
+
+   .aboutLogo img {
+    width: 80%;
+   }
+
+   .coImg {
+    display: grid;
+    padding: 3em;
+    align-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.companies {
+    margin: 0;
+}
+
+.ctg {
+    grid-column: 1 / -1;
+}
+
+.ctg img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.gh {
+    grid-column: 1 / -1;
+}
+
+.gh img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sw {
+    grid-column: 1 / -1;
+}
+
+.sw img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.tb {
+    grid-column: 1 / -1;
+}
+
+.tb img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+}
