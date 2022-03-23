@@ -2,11 +2,11 @@ $(window).scroll(function () {
     if($(this).scrollTop() > 10) {
         $('#topHeader').addClass('sticky');
         $('#F9Image').addClass('stickyImg');
-        $('#about').addClass('stickyAbout');
+        $('#bottomHeader').addClass('stickyBottom');
     } else {
         $('#topHeader').removeClass('sticky');
         $('#F9Image').removeClass('stickyImg');
-        $('#about').removeClass('stickyAbout');
+        $('#bottomHeader').removeClass('stickyBottom');
     }
 });
 
