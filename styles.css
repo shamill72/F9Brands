@@ -478,50 +478,46 @@ h1 {
 
   .ctg {
     grid-column: 1 / -1;
+    max-width: none;
   }
 
   .ctg img {
-    width: 80%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   .gh {
     grid-column: 1 / -1;
+    max-width: none;
   }
 
   .gh img {
-    width: 80%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   .sw {
     grid-column: 1 / -1;
+    max-width: none;
   }
 
   .sw img {
-    width: 80%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   .tb {
     grid-column: 1 / -1;
+    max-width: none;
   }
 
   .tb img {
-    width: 80%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
   }
   .ctGrid {
     display: grid;
