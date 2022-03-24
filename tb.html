@@ -13,20 +13,36 @@
 </head>
 <body>
     <section class="header" id="header">
-        <div class="topHeader" id="topHeader">
-            <div class="toggle">
-                <a href="javascript:void(0);" class="icon" id="smallMenu" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-                <a href="./index.html" id="home">Home</a>
-                <a href="./ctg.html" id="ctg">Cabinets To Go</a>
-                <a href="./gh.html" id="gh">Gracious Home</a>
-                <a href="./sw.html" id="sw">Southwind</a>
-                <a href="./tb.html" id="tb">Thos. Baker</a>
+        <div class="bigMenu">
+            <div class="topHeader" id="topHeader">
+                <div class="toggle">
+                    <a href="./index.html" id="home">Home</a>
+                    <a href="./ctg.html" id="ctg">Cabinets To Go</a>
+                    <a href="./gh.html" id="gh">Gracious Home</a>
+                    <a href="./sw.html" id="sw">Southwind</a>
+                    <a href="./tb.html" id="tb">Thos. Baker</a>
+                </div>    
             </div>
+            <div>
+                <img src="images/F9Brands.jpeg" alt="F9 Brands Header image" class="F9Image" id="F9Image">
+            </div>
+            <div class="bottomHeader" id="bottomHeader"></div>
         </div>
-        <div>
-            <img src="images/F9Brands.jpeg" alt="F9 Brands Header image" class="F9Image" id="F9Image">
+
+        <div class="mobileMenu">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon fa fa-bars" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./ctg.html">Cabinets To Go</a></li>
+              <li><a href="./gh.html">Gracious Home</a></li>
+              <li><a href="./sw.html">Southwind</a></li>
+              <li><a href="./tb.html">Thos Baker</a></li>
+            </ul>
+            <div>
+              <img src="images/F9Brands.jpeg" alt="F9 Brands Header image" class="F9Image" id="F9Image">
+          </div>
         </div>
-        <div class="bottomHeader" id="bottomHeader"></div>
     </section>
     <section class="about" id="about">
         <div class="aboutLogo"><a href="https://gracioushome.com/outdoor/"><img src="images/tb-logo.png" alt="Thos Baker image"></a></div>
