@@ -4,6 +4,8 @@ body {
   margin-right: 0;
 }
 
+@import url('http://fonts.cdnfonts.com/css/times-new-roman');
+
 .bodyWrapHome {
   background: url(images/Harvest-Plank_Walnut-Grove_Room.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -45,7 +47,13 @@ body {
 
 
 h1 {
-  text-transform: uppercase;}
+  font-family: 'Times New Roman', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Times New Roman', sans-serif;
+}
 
 
 .footer {
@@ -629,6 +637,7 @@ transition: ease-out .5s;
   .topHeader.responsive .sticky {
     position: sticky;
     width: 100%;
+    scroll-behavior: none;
   }
 
   .topHeader.responsive .toggle a {
