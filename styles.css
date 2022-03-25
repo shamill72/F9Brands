@@ -95,7 +95,6 @@ p {
 .topHeader.sticky {
   position: fixed;
   top: 0;
-  overflow: auto;
 }
 
 .mobileMenu {
@@ -108,7 +107,7 @@ p {
   display: flex;
   list-style-type: none;
   padding-right: 3em;
-  padding-top: 2em;
+  padding-top: 1.5em;
 }
 
 .toggle a {
