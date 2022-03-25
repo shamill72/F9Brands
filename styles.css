@@ -198,7 +198,7 @@ p {
 }
 
 .aboutTitle h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #fff;
 }
 
@@ -212,7 +212,7 @@ p {
 } 
 
 .aboutTextHome p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .aboutText {
@@ -226,7 +226,7 @@ p {
 }
 
 .aboutText p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .aboutLogo {
@@ -243,7 +243,7 @@ p {
 }
 
 .insText p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
 }
 .companies {
@@ -811,7 +811,7 @@ transition: ease-out .5s;
   }
 
   .ctGrid .aboutText p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .tbGrid {
