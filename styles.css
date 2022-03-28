@@ -312,11 +312,11 @@ transition: ease-out .5s;
 }  
 
 .sw {
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
   height: 25vh;
   display: flex;
   align-items: center;
@@ -335,10 +335,10 @@ transition: ease-out .5s;
 }  
 
 .tb {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 1em;
   height: 25vh;
   display: flex;
