@@ -7,7 +7,7 @@ body {
 @import url('http://fonts.cdnfonts.com/css/times-new-roman');
 
 .bodyWrapHome {
-  background: url(images/Harvest-Plank_Walnut-Grove_Room.jpeg) no-repeat center center fixed; 
+  background: url(images/8938_South_Hoyne0004.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -212,6 +212,7 @@ p {
 
 .aboutTextHome p {
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .aboutText {
@@ -226,6 +227,7 @@ p {
 
 .aboutText p {
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .aboutLogo {
@@ -273,7 +275,7 @@ p {
   height: 25vh;
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .ctg img {
@@ -316,7 +318,7 @@ transition: ease-out .5s;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
   height: 25vh;
   display: flex;
   align-items: center;
